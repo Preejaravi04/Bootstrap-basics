@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        body{
+            background-color: grey;
+        }
+        table{
+            border:5px solid honeydew;
+            border-radius: 10px;
+            border-collapse: collapse
+
+        }
+        th,td{
+            border:5px solid honeydew;
+            padding: 3px;
+            width: 100px;
+            text-align: center;
+        }
+    </style>
+    <body>
+        <div class="container">
+            <div class="table1">
+                <p class="text-danger">BOOTSTRAP EXAMPLE</p><br>
+                <dl>
+                    <dt>NAME</dt>
+                    <dd>Preeja Ravi</dd>
+                    <dt>AGE</dt>
+                    <dd>20</dd>
+                    <dt>GENDER</dt>
+                    <dd>Female</dd>
+                </dl>
+            <button type="button" id="submit" onclick="submit()" class="btn btn-primary active" > submit </button>
+            <button type="button" class="btn btn-success disabled"> clear </button><br><br>
+            <p>This is a basic example for <mark> bootstrap</mark>.This page is for <small>beginners</small></p>
+                             
+ 
+
+          <table>
+            <thead>
+                <th>TAMILNADU</th>
+                <th>KERALA</th>
+                <th>PONDICHERRY</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Temples</td>
+                    <td>Boat house</td>
+                    <td>Beaches</td>
+                </tr>
+                <tr>
+                    <td>Chennai</td>
+                    <td>Varkala</td>
+                    <td>Auroville</td>
+                </tr>
+            </tbody>
+          </table>
+          <div class="dropdown">
+            <button class="btn btn-success dropdown-toggle" type="button" data-toggle="dropdown">choose one</button> 
+            <ul class="dropdown-menu">
+              <li><a href="#">TAMILNADU</a></li>
+              <li><a href="#">KERALAA</a></li>
+              <li><a href="#">PONDICHERRY</a></li>
+            </ul>
+          </div>
+        </div>
+            <script>
+                function submit(){
+                          alert("submitted successfully")
+                }
+            </script>
+    </body>
+</html>
